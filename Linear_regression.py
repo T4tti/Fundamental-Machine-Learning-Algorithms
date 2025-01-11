@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-<<<<<<< HEAD
 
-=======
->>>>>>> dev
 
 class LinearRegression:
     def __init__(self, learning_rate=0.01, n_iterations=1000):

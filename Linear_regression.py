@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
+
 
 class LinearRegression:
     def __init__(self, learning_rate=0.01, n_iterations=1000):

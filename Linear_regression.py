@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 
 class LinearRegression:
     def __init__(self, learning_rate=0.01, n_iterations=1000):
@@ -57,10 +60,12 @@ y = weight
 model = LinearRegression(learning_rate=0.001, n_iterations=1000)
 model.fit(X, y)
 predictions = model.predict(X)
-
+w, b = model.weights, model.bias
 # Print performance metrics
 print("Mean Squared Error:", model.MSE(y, predictions))
 print("Mean Absolute Error:", model.MAE(y, predictions))
+print("Weights:", w)
+print("Bias:", b)
 
 # Plotting
 plt.scatter(height, weight, color='blue', label='Data points')

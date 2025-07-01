@@ -17,7 +17,7 @@ train, val, test = split_dataset(dataset, 0.7, 0.15)
 assert (len(train), len(val), len(test)) == (70, 15, 15), "Test 1 Failed"
 
 # Test 2: Dữ liệu nhỏ, chia đều, kiểm tra làm tròn
-dataset = [’a’, ’b’, ’c’]
+dataset = ['a', 'b', 'c']
 train, val, test = split_dataset(dataset, 0.5, 0.5)
 assert (len(train), len(val), len(test)) == (1, 1, 1), "Test 2 Failed"
 
